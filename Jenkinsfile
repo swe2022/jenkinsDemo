@@ -22,7 +22,7 @@ pipeline {
     }
     post {
         always {
-            bat "echo 'pipeline done!!!'"
+            echo 'pipeline done'
         }
     }
 }
