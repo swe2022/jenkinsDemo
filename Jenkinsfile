@@ -19,8 +19,8 @@ pipeline {
         }
     }
     post {
-        always{
-            echo 'pipeline done!!!'
+        always {
+            echo "pipeline job done"
         }
     }
 }
